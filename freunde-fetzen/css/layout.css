@@ -14,7 +14,6 @@ body{
 header{
     display:block;
     position:relative;
-    padding:0px;
     margin:0 auto !important;
     text-align: center;
     width: 100%;
@@ -23,7 +22,7 @@ header{
     background-color:#656565;
     border: 0px solid black;
     color: white;
-    
+    box-sizing: border-box;
     vertical-align: bottom;
 
 }
@@ -37,6 +36,7 @@ article{
     width: 100%;
     max-width: 1024px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 footer{
