@@ -24,7 +24,7 @@
        </ul>
         </nav>
         
-        <div>
+        <article>
             Test test test</br>asdasd
         Test test test</br>
         Test test test</br>Test test test</br>Test test test</br>Test test test</br>
@@ -55,33 +55,10 @@
         Test test test</br>Test test test</br>Test test test</br>Test test test</br>
         Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
         Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>      Test test test</br>
-        Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>Test test test</br>
-        Test test test</br>Test test test</br>Test test test</br>
         
-        </div>
+        </article>
         
-        <footer></footer>
+        <footer>Freunde-Fetzen.de <?php echo date("Y");?> &copy; T-No</footer>
         
         
         
