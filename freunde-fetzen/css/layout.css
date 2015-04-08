@@ -24,9 +24,31 @@ header{
     color: white;
     box-sizing: border-box;
     vertical-align: bottom;
-
 }
 
+#user_panel{
+    diplay:block;
+    position: relative;
+    margin: 7px auto;
+    height: 50px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#login_form{
+    diplay:block;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    
+}
+.login{
+    width: 20%;
+    height: 26px;
+}
 
 article{
     diplay:block;

@@ -24,6 +24,16 @@
        </ul>
         </nav>
         
+        <div id="user_panel" style="display: hidden;">
+            <form id="login_form">
+                <input class="login" autofocus required type="text" name="user" placeholder="Name">
+                <input class="login" required type="password" name="password" placeholder="Passwort">
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        
+   
+        
         <article>
             Test test test</br>asdasd
         Test test test</br>
