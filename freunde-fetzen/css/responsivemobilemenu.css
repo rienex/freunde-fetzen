@@ -12,8 +12,8 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 
 .rmm {
 	display:block;
-	position:fixed;
-        top: 10px;
+	position:relative;
+        top: 0;
         left:0;
         right:0;
         margin-left:auto;
@@ -101,30 +101,30 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	background-image:url('../img/graphite-menu-bg-hover.png');
 }
 .rmm.graphite .rmm-main-list li:first-child a {
--webkit-border-top-left-radius: 6px;
+-webkit-border-top-left-radius: 0px;
 -webkit-border-bottom-left-radius: 6px;
--moz-border-radius-topleft: 6px;
+-moz-border-radius-topleft: 0px;
 -moz-border-radius-bottomleft: 6px;
-border-top-left-radius: 6px;
+border-top-left-radius: 0px;
 border-bottom-left-radius: 6px;
 }
 .rmm.graphite .rmm-main-list li:last-child a {
-	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-right-radius: 0px;
 -webkit-border-bottom-right-radius: 6px;
--moz-border-radius-topright: 6px;
+-moz-border-radius-topright: 0px;
 -moz-border-radius-bottomright: 6px;
-border-top-right-radius: 6px;
+border-top-right-radius: 0px;
 border-bottom-right-radius: 6px;
 }
 .rmm.graphite .rmm-toggled {
-	width:95%;
+	width:100%;
 	background-color:#555555;
-	min-height:36px;
-	border-radius:6px;
+	min-height:50px;
+	/*border-radius:6px;*/
 }
 .rmm.graphite .rmm-toggled-controls {
 	display:block;
-	height:36px;
+	height:50px;
 	color:white;
 	text-align:left;
 	position:relative;
@@ -134,9 +134,9 @@ border-bottom-right-radius: 6px;
 }
 .rmm.graphite .rmm-toggled-title {
 	position:relative;
-	top:9px;
+	top:13px;
 	left:15px;
-	font-size:16px;
+	font-size:24px;
 	color:white;
 	text-shadow:1px 1px 1px black;
 }
