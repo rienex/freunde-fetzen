@@ -28,19 +28,41 @@
             <li><a href='#sitemap'>Admin</a></li> 
        </ul>
         </nav>
+        <!-- ungelesen - Sichtbar bei tablet und PC--->
+        <div class="user_panel user_panel_full hidden-xs">
+            <button class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+            </button>
+            <button class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            </button>
+        </div>       
+        <div class="unread_count unread_message_full hidden-xs">2</div> <!-- message -->
+        <div class="unread_count unread_forum_full hidden-xs">3</div> <!-- Forum -->
         
-        <div id="user_panel">
+        <!-- ungelesen - Sichtbar bei Smartphone--->
+        <div class="user_panel  visible-xs-block">
+            <button class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-list-alt message_count" aria-hidden="true"></span>
+            </button>
+            <div class="unread_count unread_message_small visible-sm-block visible-xs-block">2</div> <!-- message -->
+            
+            <button class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-envelope message_count" aria-hidden="true"></span>
+            </button>
+            <div class="unread_count unread_message_small visible-xs-block">2</div>
+            <div class="unread_count unread_forum_small visible-xs-block">3</div>
+            
+            <!--
             <form id="login_form" class="form-inline login_form">
-                
                 <input class="form-control login" autofocus required type="text" name="user" placeholder="Name">
                 <input class="form-control login" required type="password" name="password" placeholder="Passwort">
                 <button type="submit" class="btn btn-default">Login</button>
-                
             </form>
+            -->
         </div>
         
-   
-        
+  
         <article>
             Test test test</br>asdasd
         Test test test</br>

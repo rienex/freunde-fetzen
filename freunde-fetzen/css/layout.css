@@ -37,18 +37,64 @@ h1{
 }
 
 
-#user_panel{
+.user_panel{
     diplay:block;
     position: relative;
-    margin: 7px auto;
-    height: auto;
+    margin: 0 auto;
+    height: 50px;
     width: 100%;
     max-width: 1024px;
     background-color: white;
+    text-align: center;
     box-sizing: border-box;
-    padding: 7px 7px 7px 7px;
+    padding: 0px 7px 7px 7px;
 }
 
+.user_panel_full{
+    position: absolute;
+    top: 29px;
+    right: calc((100% - 1024px) / 2);
+    width: auto;    
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color:#656565;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.unread_count{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    width: auto;    
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.unread_message_full{
+    top: 48px;
+    right: calc((100% - 1024px) / 2 + 4px);    
+}
+
+.unread_forum_full{
+    top: 48px;
+    right: calc((100% - 1024px) / 2 + 60px);
+}
+
+.unread_message_small{
+    top: 18px;
+    left: calc(50% - 16px);
+}
+
+.unread_forum_small{
+    top: 18px;
+    left: calc(50% + 40px);
+}
 #login_form{
     diplay:block;
     position: relative;
@@ -72,7 +118,9 @@ article{
     max-width: 1024px;
     background-color: white;
     box-sizing: border-box;
-    padding: 0px 7px 7px 7px;  
+    padding: 20px 7px 7px 7px;  
+   /* border: 1px solid black;*/
+    
    
 }
 
@@ -90,3 +138,4 @@ footer{
     font-size: 18px;
     text-shadow:1px 1px 1px black;
    }
+   
