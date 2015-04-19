@@ -1,0 +1,28 @@
+/* 
+    Created on : 12.04.2015, 11:01:38
+    Author     : tino
+*/
+
+#forum_menu{
+    position: absolute;
+    width: 20%;
+    max-width: 150px;
+    height: auto;
+    right: calc((100% - 1024px) / 2);   
+}
+
+p.c{
+    width: 100%;
+    padding: 5px;
+}
+p.c:hover{
+    background-color:lightgrey;
+    cursor: pointer;
+}
+
+.post{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+}

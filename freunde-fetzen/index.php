@@ -1,82 +1,8 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>freunde-fetzen.de</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/layout.css" type="text/css"/>
-        <link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
-        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-        <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        
-        
-    </head>
-    <body>
-        
-        <header class="hidden-xs"><h1>Freunde-Fetzen.de</h1></header>
-        <nav class="rmm" data-menu-title = "Freunde-Fetzen.de">
-        <ul>
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about-me'>Forum</a></li>
-            <li><a href='#gallery'>Galerie</a></li>
-            <li><a href='#blog'>FM</a></li>
-            <li><a href='#links'>Upload</a></li>
-            <li><a href='#sitemap'>Admin</a></li> 
-       </ul>
-        </nav>
-        <!-- ungelesen - Sichtbar bei tablet und PC--->
-        <div class="user_panel user_panel_full hidden-xs">
-            <button class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-            </button>
-            <button class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-            </button>
-        </div>       
-        <div class="unread_count unread_message_full hidden-xs">2</div> <!-- message -->
-        <div class="unread_count unread_forum_full hidden-xs">3</div> <!-- Forum -->
-        
-        <!-- ungelesen - Sichtbar bei Smartphone--->
-        <div class="user_panel  visible-xs-block">
-            <button class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-list-alt message_count" aria-hidden="true"></span>
-            </button>
-            <div class="unread_count unread_message_small visible-sm-block visible-xs-block">2</div> <!-- message -->
-            
-            <button class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-envelope message_count" aria-hidden="true"></span>
-            </button>
-            <div class="unread_count unread_message_small visible-xs-block">2</div>
-            <div class="unread_count unread_forum_small visible-xs-block">3</div>
-            
-            <!--
-            <form id="login_form" class="form-inline login_form">
-                <input class="form-control login" autofocus required type="text" name="user" placeholder="Name">
-                <input class="form-control login" required type="password" name="password" placeholder="Passwort">
-                <button type="submit" class="btn btn-default">Login</button>
-            </form>
-            -->
-        </div>
-        
-  
-        <article>
-            Test test test</br>asdasd
-        Test test test</br>
-
-    
-    
-        
-        </article>
-        
-        <footer>Freunde-Fetzen.de <?php echo date("Y");?> &copy; T-No</footer>
-        
-        
+<?php include 'layout_top.php'; ?>
 
         
+    Test test test</br>asdasd
+    Test test test</br>
         
-    </body>
-</html>
+        
+<?php include 'layout_bottom.php'; ?>
