@@ -13,7 +13,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Script für neuen Beitrag/Thema TextArea--->
+        <script script type="text/javascript">
         
+        //uebergeben der kategorie/thema als onklick
+        function thread(kategorie){
+            $("#thread_form").html(kategorie); 
+        }
+         
+        $(document).ready(function(){
+            $(".btn_fadeOut").click(function(){
+                $(".post_form").fadeOut()
+            });
+            $(".btn_fadeIn").click(function(){                
+                $(".post_form").fadeIn();
+                $(".form-control")[0].focus(); //[0] damit erstes input on focus ist (Firefox)
+            });
+        });
+        
+        </script>
+
         
     </head>
     <body>

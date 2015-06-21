@@ -34,8 +34,11 @@ p.c:hover{
     overflow:auto;
 }
 
-.post_cell_margin{
+/*  da display: table-cell; kein margin erlaubt, 
+    ein extra div um Abstand zwischen post und menue*/
+.post_cell_margin{ 
     margin-left: 15px;
+    box-sizing: border-box;
 }
 
 .post{
@@ -61,4 +64,36 @@ p.c:hover{
     position: relative;
     text-align: right;
     overflow: auto;
-   }
+}
+   
+.post_form{
+    display: none;
+    padding: 15px 20px 20px 20px;
+}
+
+div.topic_hover:hover{
+    background-color: lightgray;
+}
+   
+*[onclick] {
+    cursor: pointer;
+}
+
+.forum_table{
+    font-size: 16px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.forum_table_right{
+    text-align: right;
+}
+
+.forum_table_middle{
+    min-width: 10px;
+}
+.forum_table_tr{
+    height: 60px;;
+}
+    
+
