@@ -1,0 +1,6 @@
+# npm stuff
+node_modules
+npm-debug.log
+
+# OSX stuff
+.DS_Store
